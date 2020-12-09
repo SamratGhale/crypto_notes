@@ -1,0 +1,33 @@
+Potential problems with digital token transfer
+
+1. intercept transfer and steal funds
+2. spend money without authorization
+3. double spend (digital currency can be replecated)
+4. equivocate (make sure once a spend happens it cannot be taken back very easily)
+
+
+features in digital cryptocurrency:
+1. Anyone can use it --> Permissionless
+2. Authoritative transfer (be sure when alice sends some cash it's really her)
+--> no double spends
+3. Can't undo spends --> tamper proof
+
+banks keeps a database storing who is sending money to whom
+
+Distributed consensus
+1. problem of multiple computers agreeing on a value
+2. used to build a log of operations with state machine replication
+3. works as a distrubuted database
+
+Byzantine fault tolerant distributed consensus
+It tolerates actively malicious participants
+But participants needs identity
+
+Make identity costly
+
+Proof of Work
+How to prevent sybil attacks?
+Hard problem! Arms race; Twitter / FB / etc have tons of bots
+
+Also, don't want anyone in charge
+rules out SSN, phone num, captchas
