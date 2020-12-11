@@ -1,0 +1,35 @@
+function for elliptic courve of bitcoin:
+y²= x³+7
+
+take two point in that curve (P,Q) the sum of those points is R which is negation of -R(point the line made by P and Q intersects)
+
+everyone agrees on a single point in the curve (G)
+
+private key is a random 256 bit (32 byte) scalar
+
+public key is A= a*g 64 byte (32 byte in x axis and 32 in y) 
+but we can just use one bit(byte actually) in y axis cause x axis is symmetrical to y axis 
+so 33 bytes
+
+G = point on curve everyone agrees on 
+a = private key (random 32 bit scalar)
+A = public key (a * G)
+
+m = messege
+k = new random private key just like a
+
+ENCRIPTION:
+R = k * G
+s = k - hash(m, R)a
+signature = s, R
+
+DECRIPTION: we have A, G, m, s, R
+multiply both side by G
+G(s) = G{k - hash(m, R)a}G
+G(s) = R - hash(m, R)A
+
+R == G(s) + hash(m, R)A
+if true then true else false
+
+
+

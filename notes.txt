@@ -5,7 +5,6 @@ Potential problems with digital token transfer
 3. double spend (digital currency can be replecated)
 4. equivocate (make sure once a spend happens it cannot be taken back very easily)
 
-
 features in digital cryptocurrency:
 1. Anyone can use it --> Permissionless
 2. Authoritative transfer (be sure when alice sends some cash it's really her)

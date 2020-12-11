@@ -1,1 +1,9 @@
-32 bytes of 
+2 array of 256 32 bytes string for both secret and public key
+
+public key is the hash of private key arbitarily same size
+
+SIGNING
+
+
+
+
